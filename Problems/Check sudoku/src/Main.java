@@ -14,34 +14,34 @@ public class Main {
             }
         }
 
-//        for (int i = 0; i < field.length; i++) {
-//            int[] array = new int[n * n];
-//            array = Arrays.copyOf(field[i], n * n);
-//            Arrays.sort(array);
-//            if (n == 1 && array[0] != 1) {
-//                isSolved = false;
-//                break;
-//            }
-//            for (int j = 1; j < array.length; j++) {
-//                if (array[j - 1] != 0 && array[j - 1] + 1 != array[j]) {
-//                    isSolved = false;
-//                    break;
-//                }
-//            }
-//        }
-//        for (int i = 0; i < field.length; i++) {
-//            int[] array = new int[field.length];
-//            for (int j = 0; j < field[i].length; j++) {
-//                array[j] = field[j][i];
-//            }
-//            Arrays.sort(array);
-//            for (int j = 1; j < array.length; j++) {
-//                if (array[j - 1] != 0 && array[j - 1] + 1 != array[j]) {
-//                    isSolved = false;
-//                    break;
-//                }
-//            }
-//        }
+        for (int i = 0; i < field.length; i++) {
+            int[] array = new int[n * n];
+            array = Arrays.copyOf(field[i], n * n);
+            Arrays.sort(array);
+            if (n == 1 && array[0] != 1) {
+                isSolved = false;
+                break;
+            }
+            for (int j = 1; j < array.length; j++) {
+                if (array[j - 1] != 0 && array[j - 1] + 1 != array[j]) {
+                    isSolved = false;
+                    break;
+                }
+            }
+        }
+        for (int i = 0; i < field.length; i++) {
+            int[] array = new int[field.length];
+            for (int j = 0; j < field[i].length; j++) {
+                array[j] = field[j][i];
+            }
+            Arrays.sort(array);
+            for (int j = 1; j < array.length; j++) {
+                if (array[j - 1] != 0 && array[j - 1] + 1 != array[j]) {
+                    isSolved = false;
+                    break;
+                }
+            }
+        }
 
         for (int i = 0; i < field.length; i++) {
             int[] a = Arrays.copyOf(field[i], field.length);
