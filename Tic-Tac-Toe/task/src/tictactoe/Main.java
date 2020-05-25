@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     private static final int FIELD = 3;
-    private static states state = states.NO_STATE;
+    private static states state;
 
     public static void main(String[] args) {
         // write your code here
@@ -114,7 +114,6 @@ public class Main {
     }
 
     enum states {
-        NO_STATE(""),
         GAME_NOT_FINISHED("Game not finished"),
         DRAW("Draw"),
         X_WINS("X wins"),
