@@ -40,7 +40,6 @@ public class Main {
             }
         }
 
-
         int xRowCounter = 0;
         int oRowCounter = 0;
         int xColumnCounter = 0;
@@ -63,6 +62,7 @@ public class Main {
                 oColumnCounter++;
             }
         }
+
         int xDiagonal = 0;
         int oDiagonal = 0;
         StringBuilder diagonal1 = new StringBuilder();
