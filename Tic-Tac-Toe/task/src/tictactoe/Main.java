@@ -28,13 +28,13 @@ public class Main {
         int x = 0;
         int o = 0;
         int space = 0;
-        for (int i = 0; i < gameField.length; i++) {
+        for (char[] chars : gameField) {
             for (int j = 0; j < gameField.length; j++) {
-                if (gameField[i][j] == 'X') {
+                if (chars[j] == 'X') {
                     x++;
-                } else if (gameField[i][j] == 'O') {
+                } else if (chars[j] == 'O') {
                     o++;
-                } else if (gameField[i][j] == '_') {
+                } else if (chars[j] == '_') {
                     space++;
                 }
             }

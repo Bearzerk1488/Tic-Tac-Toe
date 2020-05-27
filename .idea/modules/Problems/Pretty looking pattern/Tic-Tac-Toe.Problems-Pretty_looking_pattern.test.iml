@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":Problems-Maximum_element_in_a_matrix:test" external.linked.project.path="$MODULE_DIR$/../../../../Problems/Maximum element in a matrix" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Tic-Tac-Toe" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":Problems-Pretty_looking_pattern:test" external.linked.project.path="$MODULE_DIR$/../../../../Problems/Pretty looking pattern" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Tic-Tac-Toe" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <output-test url="file://$MODULE_DIR$/../../../../Problems/Maximum element in a matrix/out/test/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../Problems/Pretty looking pattern/out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../../Problems/Maximum element in a matrix/src/test" />
-    <content url="file://$MODULE_DIR$/../../../../Problems/Maximum element in a matrix/test" />
+    <content url="file://$MODULE_DIR$/../../../../Problems/Pretty looking pattern/src/test" />
+    <content url="file://$MODULE_DIR$/../../../../Problems/Pretty looking pattern/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Problems-Maximum_element_in_a_matrix_main" />
+    <orderEntry type="module" module-name="Tic-Tac-Toe.Problems-Pretty_looking_pattern.main" />
     <orderEntry type="library" name="Gradle: com.github.hyperskill:hs-test:v7.0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.github.stefanbirkner:system-rules:1.19.0" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
@@ -27,5 +27,5 @@
     <orderEntry type="library" name="Gradle: org.assertj:assertj-core:3.8.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.easytesting:fest-util:1.2.5" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="Problems-Maximum_element_in_a_matrix_main" />
+  <component name="TestModuleProperties" production-module="Tic-Tac-Toe.Problems-Pretty_looking_pattern.main" />
 </module>
